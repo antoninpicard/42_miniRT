@@ -284,7 +284,7 @@ En cas d'erreur, un message explicite est affiché sur `stderr`.
 ## 👥 Auteurs
 
 - **Antonin Picard** - [@antoninpicard](https://github.com/antoninpicard)
-- **Alexandre Lefranc** - allefran
+- **Alexandre Lefranc** - [@Alexlechat](https://github.com/alexlechat)
 
 ---
 
