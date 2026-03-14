@@ -9,7 +9,7 @@
 Voici une démonstration d'une scène basique réalisée avec miniRT :
 
 <p align="center">
-  <video src="assets/miniRT.mp4" width="600" autoplay loop muted playsinline>
+  <video src="https://raw.githubusercontent.com/antoninpicard/miniRT/main/assets/miniRT.mp4" width="600" autoplay loop muted playsinline>
     Votre navigateur ne supporte pas la balise vidéo.
   </video>
 </p>
@@ -20,7 +20,7 @@ Voici une démonstration d'une scène basique réalisée avec miniRT :
 
 **miniRT** est un projet de ray tracing développé dans le cadre du cursus de l'école 42. Il permet de générer des images 3D réalistes à partir de scènes décrites dans des fichiers `.rt`, en utilisant les principes fondamentaux du ray tracing.
 
-## 📋 Table des matières
+## Table des matières
 
 - [Fonctionnalités](#-fonctionnalités)
 - [Prérequis](#-prérequis)
