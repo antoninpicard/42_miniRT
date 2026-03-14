@@ -1,8 +1,22 @@
-# 🎨 miniRT - Ray Tracer Minimaliste
+# miniRT - Ray Tracer Minimaliste
 
 ![42 School](https://img.shields.io/badge/42-School-000000?style=flat-square&logo=42)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+## Démonstration
+
+Voici une démonstration d'une scène basique réalisée avec miniRT :
+
+<p align="center">
+  <video src="assets/miniRT.mp4" width="600" autoplay loop muted playsinline>
+    Votre navigateur ne supporte pas la balise vidéo.
+  </video>
+</p>
+
+*Cette vidéo montre une scène basique illustrant les capacités de rendu du ray tracer.*
+
+---
 
 **miniRT** est un projet de ray tracing développé dans le cadre du cursus de l'école 42. Il permet de générer des images 3D réalistes à partir de scènes décrites dans des fichiers `.rt`, en utilisant les principes fondamentaux du ray tracing.
 
@@ -18,13 +32,13 @@
 - [Algorithmes implémentés](#-algorithmes-implémentés)
 - [Auteurs](#-auteurs)
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - **Ray Tracing** : Calcul précis des intersections rayon-objet
 - **Objets 3D supportés** :
-  - 🔴 Sphères
-  - 🟦 Plans
-  - 🟢 Cylindres (avec caps)
+  - Sphères
+  - Plans
+  - Cylindres (avec caps)
 - **Modèle d'éclairage Phong** :
   - Lumière ambiante
   - Lumière diffuse
@@ -34,7 +48,7 @@
   - Champ de vision (FOV) ajustable
 - **Rendu en temps réel** avec la MiniLibX
 
-## 🔧 Prérequis
+## Prérequis
 
 - **Système d'exploitation** : Linux (testé sur Ubuntu/Debian)
 - **Compilateur** : `gcc` ou `cc`
@@ -51,7 +65,7 @@ sudo apt-get update
 sudo apt-get install gcc make xorg libxext-dev libbsd-dev
 ```
 
-## 🚀 Installation
+## Installation
 
 1. **Cloner le dépôt** :
 ```bash
@@ -76,7 +90,7 @@ make fclean   # Supprime les .o et l'exécutable
 make re       # Recompile tout
 ```
 
-## 🎮 Utilisation
+## Utilisation
 
 ### Lancer une scène
 
@@ -100,7 +114,7 @@ make re       # Recompile tout
 ./miniRT scene/test_shadows.rt
 ```
 
-## 📝 Format des fichiers de scène
+## Format des fichiers de scène
 
 Les fichiers `.rt` décrivent la scène en utilisant une syntaxe simple. Chaque ligne représente un élément.
 
@@ -196,14 +210,14 @@ cy 0,1.5,30 0,1,0 2 3 100,255,100
 cy -8,1.5,25 1,0,0 1.5 6 255,100,255
 ```
 
-## 🎯 Contrôles
+## Contrôles
 
 | Touche | Action |
 |--------|--------|
 | `ESC` | Quitter le programme |
 | `X` (croix) | Fermer la fenêtre |
 
-## 🧮 Algorithmes implémentés
+## Algorithmes implémentés
 
 ### Ray Tracing
 - **Génération de rayons** : Calcul des rayons primaires depuis la caméra
@@ -225,7 +239,7 @@ Couleur_finale = Ambiante + Diffuse
 - **Plan** : `normale = vecteur_normal_du_plan`
 - **Cylindre** : Projection sur l'axe perpendiculaire
 
-## 📂 Structure du projet
+## Structure du projet
 
 ```
 miniRT/
@@ -248,7 +262,7 @@ miniRT/
 └── README.md         # Ce fichier
 ```
 
-## 🛠️ Makefile
+## Makefile
 
 Le Makefile est optimisé pour éviter les recompilations inutiles :
 
@@ -264,7 +278,7 @@ make fclean   # Supprime tout (objets + exécutable)
 make re       # Recompile tout
 ```
 
-## 🐛 Gestion des erreurs
+## Gestion des erreurs
 
 Le programme gère les erreurs suivantes :
 - ✅ Fichier `.rt` invalide ou inexistant
@@ -275,17 +289,17 @@ Le programme gère les erreurs suivantes :
 
 En cas d'erreur, un message explicite est affiché sur `stderr`.
 
-## 📚 Ressources
+## Ressources
 
 - [Ray Tracing in One Weekend](https://raytracing.github.io/)
 - [Scratchapixel - Ray Tracing](https://www.scratchapixel.com/)
 - [Phong Reflection Model](https://en.wikipedia.org/wiki/Phong_reflection_model)
 
-## 👥 Auteurs
+## Auteurs
 
 - **Antonin Picard** - [@antoninpicard](https://github.com/antoninpicard)
 - **Alexandre Lefranc** - [@Alexlechat](https://github.com/alexlechat)
 
 ---
 
-*Projet réalisé dans le cadre du cursus de l'école 42* 🚀
+*Projet réalisé dans le cadre du cursus de l'école 42*
