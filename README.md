@@ -8,11 +8,7 @@
 
 Voici une démonstration d'une scène basique réalisée avec miniRT :
 
-<p align="center">
-  <video src="https://raw.githubusercontent.com/antoninpicard/miniRT/main/assets/miniRT.mp4" width="600" autoplay loop muted playsinline>
-    Votre navigateur ne supporte pas la balise vidéo.
-  </video>
-</p>
+![Démonstration de miniRT](assets/miniRT.gif)
 
 *Cette vidéo montre une scène basique illustrant les capacités de rendu du ray tracer.*
 
