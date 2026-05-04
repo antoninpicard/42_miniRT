@@ -5,7 +5,7 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ## Démonstration
-
+ 
 Voici une démonstration d'une scène basique réalisée avec miniRT :
 
 ![Démonstration de miniRT](assets/miniRT.gif)
